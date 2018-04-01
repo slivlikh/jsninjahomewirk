@@ -1,0 +1,16 @@
+.chart {
+    position: relative;
+    margin-top: 20px;
+}
+
+.maxPoint {
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
+.minPoint {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+}

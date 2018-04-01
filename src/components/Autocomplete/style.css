@@ -1,0 +1,50 @@
+* {
+    font-family: Segoe UI;
+    font-size: 12px;
+}
+
+.autocomplete-wrapper {
+    margin: 0 auto;
+    width: 200px;
+    position: relative;
+}
+
+.autocomplete {
+    border: 1px solid silver;
+    outline: none;
+    margin: 0;
+    background: #fff;
+}
+
+.autocomplete_result {
+    border: 1px solid silver;
+    border-top: 0;
+    position: absolute;
+    overflow: auto;
+    max-height: 93px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.autocomplete, .autocomplete_result {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.autocomplete, .autocomplete_result > div {
+    padding: 4px;
+    margin: 0;
+    color: #000;
+}
+
+.autocomplete_result > div:nth-child(2n+1) {
+    background: #f6f6f6;
+}
+
+.autocomplete_result > div:hover {
+    background: #e5e5e5;
+}
+
+label {
+    display: block;
+}

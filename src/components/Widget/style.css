@@ -1,0 +1,43 @@
+.widget {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid darkgreen;
+    box-shadow: 0 0 3px 3px #ccc;
+    text-align: left;
+}
+
+.chart svg {
+    display: block;
+}
+
+.chart svg path {
+    fill: pink;
+    stroke: red;
+    stroke-width: 2px;
+}
+
+
+.currency,
+.deviationDynamic,
+.currency-pair {
+    margin-left: 15px;
+    color: black;
+}
+
+
+.currency.hight,
+.deviationDynamic.hight {
+    color: green;
+}
+
+.currency.low,
+.deviationDynamic.low {
+    color: red;
+}
+
+.currency.none,
+.deviationDynamic.none {
+    color: gray;
+}
